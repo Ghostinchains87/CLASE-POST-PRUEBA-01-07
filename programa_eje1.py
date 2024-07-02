@@ -89,7 +89,7 @@ def visualiza_asistencia_curso():
     for alumnos in lista_alumnos:
         if alumnos['Asistencia_actual'] < 70 and curso_ingreso == alumnos['curso']:
            contador_alumnos += 1
-    print(f"{alumnos['curso']} alumnos con asistencia < 70%: {contador_alumnos}")
+    print(f"{curso_ingreso} alumnos con asistencia < 70%: {contador_alumnos}")
     input()
 
 
